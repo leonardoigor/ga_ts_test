@@ -16,7 +16,7 @@ var dna_1 = __importDefault(require("./dna"));
 var GeneticAlgorithm = /** @class */ (function () {
     function GeneticAlgorithm(populationSize, DnaLength, GetRandomGene, FitnessFunction, Elistism, MutationRate) {
         if (MutationRate === void 0) { MutationRate = 0.01; }
-        this.Generation = 1;
+        this.Generation = 0;
         this.Elistism = Elistism;
         this.MutationRate = MutationRate;
         this.Population = new Array(populationSize);

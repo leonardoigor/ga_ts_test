@@ -16,7 +16,7 @@ class GeneticAlgorithm<T>{
 
     constructor(populationSize: number, DnaLength: number, GetRandomGene: () => T, FitnessFunction: (index: number) => number,
         Elistism: number, MutationRate: number = 0.01) {
-        this.Generation = 1;
+        this.Generation = 0;
         this.Elistism = Elistism;
         this.MutationRate = MutationRate;
         this.Population = new Array<Dna<T>>(populationSize);

@@ -6,9 +6,11 @@
   "author": "igor leonardo mendonça <igormendonca@rebortec.com>",
   "license": "MIT",
   "scripts": {
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "run:js": "nodemon build/index.js"
   },
   "devDependencies": {
+    "nodemon": "^2.0.19",
     "typescript": "^4.8.2"
   }
 }
