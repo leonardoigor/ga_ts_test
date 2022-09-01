@@ -1,0 +1,11 @@
+{
+  "name": "ga_ts_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leonardoigor/ga_ts_test.git",
+  "author": "igor leonardo mendonça <igormendonca@rebortec.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
