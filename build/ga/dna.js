@@ -23,12 +23,7 @@ var Dna = /** @class */ (function () {
     Dna.prototype.CrossOver = function (other) {
         var child = new Dna(this.Genes.length, this.GetRandomGene, this.FitnessFunction, false);
         for (var i = 0; i < this.Genes.length; i++) {
-            if (Math.random() < 0.5) {
-                child.Genes[i] = this.Genes[i];
-            }
-            else {
-                child.Genes[i] = other.Genes[i];
-            }
+            child.Genes[i] = Math.random() < 0.5 ? this.Genes[i] : other.Genes[i];
         }
         return child;
     };
