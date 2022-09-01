@@ -5,6 +5,9 @@
   "repository": "https://github.com/leonardoigor/ga_ts_test.git",
   "author": "igor leonardo mendonça <igormendonca@rebortec.com>",
   "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w"
+  },
   "devDependencies": {
     "typescript": "^4.8.2"
   }
